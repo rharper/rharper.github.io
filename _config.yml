@@ -26,9 +26,9 @@ author:
   location              :  "Røros, Norway"   # New York, USA 
   links:                
     - url:  https://twitter.com/rharper #A link or email: https://twitter.com/jack, mail@example.com
-      icon: fa-square-x-twitter # A Fontawesome 5 code: fab fa-twitter - see https://fontawesome.com/
+      icon: fab fa-square-x-twitter # A Fontawesome 5 code: fab fa-twitter - see https://fontawesome.com/
     - url:  https://instagram.com/raghar
-      icon: fa-brands fa-square-instagram # Anothet FontAwesome code
+      icon: fab fa-brands fa-square-instagram # Anothet FontAwesome code
 
 fa_version: #default ["6"] Use 6 or 5
 fa_kit_code: # Your FontAwesome kit code. If not provided a free hosted version (slower) will be loaded:  https://fontawesome.com/ 
@@ -189,19 +189,19 @@ defaults:
       breadcrumb_list   :
         - label: Blog
           url: /blog/
-  -
-    scope:
-      path: ""
-      type: "cheatsheet"
-    values:
-      header_type       : "hero"
-      show_bottomnavs   : true
-      show_sociallinks  : true
-      include_on_search : true
-      show_breadcrumb   : true
-      breadcrumb_list   :
-        - label: Cheatsheets
-          url: /cheatsheets
+ # -
+ #   scope:
+ #     path: ""
+ #     type: "cheatsheet"
+ #   values:
+ #     header_type       : "hero"
+ #     show_bottomnavs   : true
+ #     show_sociallinks  : true
+ #     include_on_search : true
+ #     show_breadcrumb   : true
+ #     breadcrumb_list   :
+ #       - label: Cheatsheets
+ #         url: /cheatsheets
 
 
 # XX. Other settings - no need to modify
